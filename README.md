@@ -8,11 +8,6 @@
 
 #🌱 FASE 5 - ENTERPRISE CHALLENGE
 
-### ▶️ Vídeo de Evidência do Funcionamento do Projeto.
-
-[https://youtu.be/KEdM_Xw_xbk](https://youtu.be/KEdM_Xw_xbk)
-
-
 ## Grupo
 
 ## 👨‍🎓 Integrantes: 
@@ -106,6 +101,9 @@ Endpoints principais:
 - POST /leituras → Envia leituras de sensores.
 - POST /leituras/batch → Envia várias leituras de uma vez.
 - GET /status → Consulta status da irrigação.
+- GET /ml/features → Features esperadas pelo modelo.
+- POST /ml/predict → Objeto ou lista de objetos contendo as features usadas no treino (veja /ml/features)
+- GET /ml/features/now → Predição com a última leitura de cada sensor.
 
 ## 2. Banco de Dados
 - Escolha o SGBD desejado.
