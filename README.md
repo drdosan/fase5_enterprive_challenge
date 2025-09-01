@@ -6,12 +6,12 @@
 
 <br>
 
-#🌱 Cap 1 - FarmTech na era da cloud computing
-
+#🌱 FASE 5 - ENTERPRISE CHALLENGE
 
 ### ▶️ Vídeo de Evidência do Funcionamento do Projeto.
 
-[https://youtu.be/aj7z-3DHy9c](https://youtu.be/aj7z-3DHy9c)
+[https://youtu.be/KEdM_Xw_xbk](https://youtu.be/KEdM_Xw_xbk)
+
 
 ## Grupo
 
@@ -92,6 +92,9 @@ A API foi desenvolvida em Flask e documentada com Flasgger/Swagger, permitindo i
 ### 📌 Como rodar a API:
 ```bash
 cd api
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 python app.py
 ```
@@ -103,9 +106,6 @@ Endpoints principais:
 - POST /leituras → Envia leituras de sensores.
 - POST /leituras/batch → Envia várias leituras de uma vez.
 - GET /status → Consulta status da irrigação.
-- GET /ml/features → Features esperadas pelo modelo.
-- POST /ml/predict → Objeto ou lista de objetos contendo as features usadas no treino (veja /ml/features)
-- GET /ml/features/now → Predição com a última leitura de cada sensor.
 
 ## 2. Banco de Dados
 - Escolha o SGBD desejado.
@@ -150,6 +150,9 @@ Aqui treinamos e testamos um modelo preditivo de irrigação, utilizando Scikit-
 1. Instale dependências
 ```bash
 cd machine_learning
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
