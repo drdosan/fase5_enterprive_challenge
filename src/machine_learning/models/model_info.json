@@ -9,15 +9,15 @@
   ],
   "umidade_solo_threshold": 30.0,
   "best_params": {},
-  "report": "              precision    recall  f1-score   support\n\n           0     0.8571    1.0000    0.9231        18\n           1     0.0000    0.0000    0.0000         3\n\n    accuracy                         0.8571        21\n   macro avg     0.4286    0.5000    0.4615        21\nweighted avg     0.7347    0.8571    0.7912        21\n",
+  "report": "              precision    recall  f1-score   support\n\n           0     1.0000    1.0000    1.0000        24\n           1     1.0000    1.0000    1.0000         2\n\n    accuracy                         1.0000        26\n   macro avg     1.0000    1.0000    1.0000        26\nweighted avg     1.0000    1.0000    1.0000        26\n",
   "confusion_matrix": [
     [
-      18,
+      24,
       0
     ],
     [
-      3,
-      0
+      0,
+      2
     ]
   ],
   "versions": {

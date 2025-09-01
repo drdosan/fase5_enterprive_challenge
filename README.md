@@ -8,6 +8,10 @@
 
 #🌱 FASE 5 - ENTERPRISE CHALLENGE
 
+### ▶️ Vídeo de Evidência do Funcionamento do Projeto.
+
+[https://youtu.be/aj7z-3DHy9c](https://youtu.be/aj7z-3DHy9c)
+
 ## Grupo
 
 ## 👨‍🎓 Integrantes: 
