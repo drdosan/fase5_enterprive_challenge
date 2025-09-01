@@ -1,17 +1,3 @@
-#!/usr/bin/env python3
-"""
-Treina um modelo de classificação para "pode_irrigar" a partir da tabela `leituras`.
-
-Fluxo:
-- Lê dados do MySQL (tabela `leituras`).
-- Faz pivot (cada timestamp -> uma linha, cada sensor_id -> feature).
-- Mapeia sensor_id -> nome de feature (via SENSOR_MAP).
-- Deriva label "pode_irrigar" com base em umidade_solo < threshold.
-- Treina RandomForest e salva:
-    - models/model.joblib
-    - models/model_info.json
-"""
-
 import os
 import json
 import warnings
@@ -36,11 +22,11 @@ warnings.filterwarnings("ignore")
 # ---------------------------
 # Config
 # ---------------------------
-DB_HOST = os.getenv("DB_HOST", "127.0.0.1")
-DB_NAME = os.getenv("DB_NAME", "fiap")
-DB_USER = os.getenv("DB_USER", "root")
-DB_PASS = os.getenv("DB_PASS", "")
-DB_TABLE = os.getenv("DB_TABLE", "leituras")
+DB_HOST = "192.185.217.50"
+DB_NAME = "qualidad_estufas"
+DB_USER = "qualidad_estufas"
+DB_PASS = "Padr@ao321"
+DB_TABLE = "leituras"
 
 MODEL_DIR = Path("models")
 MODEL_DIR.mkdir(parents=True, exist_ok=True)
@@ -66,7 +52,7 @@ CANDIDATE_FEATURES = [
     "qualidade_ar_ppm",
 ]
 
-UMIDADE_SOLO_THRESHOLD = float(os.getenv("UMIDADE_SOLO_THRESHOLD", "30"))
+UMIDADE_SOLO_THRESHOLD = float("30")
 
 # ---------------------------
 # Carregar dados

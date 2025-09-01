@@ -87,9 +87,6 @@ A API foi desenvolvida em Flask e documentada com Flasgger/Swagger, permitindo i
 ### 📌 Como rodar a API:
 ```bash
 cd api
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 python app.py
 ```
@@ -148,9 +145,6 @@ Aqui treinamos e testamos um modelo preditivo de irrigação, utilizando Scikit-
 1. Instale dependências
 ```bash
 cd machine_learning
-python -m venv venv
-source venv/bin/activate   # Linux/Mac
-venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
