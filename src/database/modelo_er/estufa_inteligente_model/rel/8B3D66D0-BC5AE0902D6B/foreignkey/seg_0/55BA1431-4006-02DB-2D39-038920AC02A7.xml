@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="55BA1431-4006-02DB-2D39-038920AC02A7" containerWithKeyObject="BB8C7865-34C1-F7D1-09E3-FD400BE2E59E" localFKIndex="F86EFA82-6EAA-FF34-2769-1D5DC6D62CA3" name="predicoes_ml_estufas_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:59:47 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<referredTableLongName>estufas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F27B37C6-B97F-A9C7-8DE7-E5FC051D038D</referredTableID>
+<keyObject>1EAB681B-0CB9-1647-B71A-523870F77A49</keyObject>
+<referredKeyID>1EAB681B-0CB9-1647-B71A-523870F77A49</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

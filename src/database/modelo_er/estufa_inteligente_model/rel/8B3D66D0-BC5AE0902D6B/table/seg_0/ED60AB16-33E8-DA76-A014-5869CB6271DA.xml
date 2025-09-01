@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED60AB16-33E8-DA76-A014-5869CB6271DA" name="configuracoes_sistema">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:03:29 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D2FA8730-191D-A648-9123-4704EF5A50DB">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:04:59 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="chave" id="10CED061-9881-B4A1-9FB9-ACFAF34815AA">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:04:59 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="55757C04-D6C0-4879-5CB8-8BE378E59322">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:04:59 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_data" id="F3B9619A-A41E-24FC-31E5-796F04C1177B">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:04:59 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<defaultValue>string</defaultValue>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="FED2EE7E-1DAC-214B-4DCD-DE01D28BE124">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:04:59 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria" id="2BE11725-846C-542D-CB53-7CE92FFEBE93">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:04:59 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="editavel" id="3F4A38EC-0B3A-3C68-FA4B-D767D2AD0D98">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:04:59 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<defaultValue>Y</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="updated_at" id="16680940-17EE-E498-279B-2188E0B7B2E9">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:04:59 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0D3A02D-A2E9-F90F-1BAB-9AC6DF852C2D" name="configuracoes_sistema_PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:04:59 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2FA8730-191D-A648-9123-4704EF5A50DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6128B9D1-8580-EF60-0C20-91A28B44806F" name="configuracoes_sistema__UN">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:06:21 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10CED061-9881-B4A1-9FB9-ACFAF34815AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8068EAB7-9921-79E3-D9B7-F9865E110343" name="idx_chave">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:24:21 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10CED061-9881-B4A1-9FB9-ACFAF34815AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DD8BFFB-DCF6-6890-B07D-66F415BB823A" name="idx_categoria">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:24:21 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BE11725-846C-542D-CB53-7CE92FFEBE93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

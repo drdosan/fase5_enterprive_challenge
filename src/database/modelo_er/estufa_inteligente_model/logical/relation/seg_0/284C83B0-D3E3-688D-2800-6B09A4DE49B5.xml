@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="leituras_sensores_FK" directorySegmentName="seg_0" id="284C83B0-D3E3-688D-2800-6B09A4DE49B5">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>D648FCAB-8611-8F55-C941-44F129B12DC3</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<sourcePk>1E6EDCD5-7998-7AB4-24D1-716FA8B6322B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>98990080-CD2F-C9C7-0903-F57ABB7E98CE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6F71354E-5C22-3E4C-5987-51F41E263831</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

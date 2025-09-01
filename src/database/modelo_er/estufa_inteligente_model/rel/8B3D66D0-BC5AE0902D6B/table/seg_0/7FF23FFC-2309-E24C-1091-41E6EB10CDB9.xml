@@ -1,0 +1,231 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7FF23FFC-2309-E24C-1091-41E6EB10CDB9" name="alertas">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:37:33 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="1F55CD9E-DB46-DBF2-214C-7CE601D339DB">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="leitura_id" id="2CF91F7D-FCA0-B31B-8671-37F5A9497A9C">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA91815F-C0B3-CAD1-3012-653DFEBFA305" referredColumn="B7CC64E5-A9E6-6E76-4FA2-308167CFF619"/>
+</associations>
+</Column>
+<Column name="tipo_alerta" id="B32325F4-ACA8-6437-42F7-2572FB62C130">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="severidade" id="C88C25E6-81D3-73AC-8AD2-2616A086F609">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_lido" id="E60A73C8-C7A3-24D7-6681-91F56F99A84F">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_esperado_min" id="33FED004-74B4-1C8C-FEB9-ACF57BA08B58">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_esperado_max" id="D948F9DB-A9FA-1477-1BAD-DF885370E0F6">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mensagem" id="C43A0707-4C8D-5391-F018-0C5B26CEF130">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timestamp_alerta" id="1F86E28B-3DD0-5CAF-E7CA-A1F2A421201F">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timestamp_resolucao" id="CC3630AE-B62F-A5BF-FFF2-356B642615CA">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resolvido" id="A28AF6A0-687B-9C3F-CD42-5714CB43BC6B">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<defaultValue>N</defaultValue>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="acao_tomada" id="AD8FB6B8-FB6D-B725-2D5C-26AD07EC9D6B">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_responsavel" id="81B275A0-9DF9-038C-4F99-B67F0F531854">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAD95371-3BC9-289C-D7B7-1F62EBCA6A53" name="alertas_PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:24 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F55CD9E-DB46-DBF2-214C-7CE601D339DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E2DF54B-F7D5-7128-0E8B-99AA5EB129F7" name="idx_leitura">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:20:08 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CF91F7D-FCA0-B31B-8671-37F5A9497A9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D1E2AF5-A36F-CD9F-BAE0-30BB432D9B02" name="idx_tipo_alerta">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:20:08 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B32325F4-ACA8-6437-42F7-2572FB62C130"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA428F9A-F817-260F-C099-7DACA58DD4F2" name="idx_severidade">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:20:08 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C88C25E6-81D3-73AC-8AD2-2616A086F609"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F74B0F12-99A8-AEEE-1E9A-ADA9924183AD" name="idx_resolvido">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:20:08 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A28AF6A0-687B-9C3F-CD42-5714CB43BC6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABECA777-E548-7D5A-A3F0-8C409EFE0D7A" name="idx_timestamp_alerta">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:20:08 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F86E28B-3DD0-5CAF-E7CA-A1F2A421201F" sortOrder="DESC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9168A66-C5BB-40ED-93DA-A55FA5ABE927" name="alertas_leituras_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:41:44 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CF91F7D-FCA0-B31B-8671-37F5A9497A9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

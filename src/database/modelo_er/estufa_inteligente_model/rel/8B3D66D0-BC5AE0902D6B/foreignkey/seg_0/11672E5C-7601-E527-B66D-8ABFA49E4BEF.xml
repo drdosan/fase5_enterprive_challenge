@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="11672E5C-7601-E527-B66D-8ABFA49E4BEF" containerWithKeyObject="15B964BC-D921-5E58-8FB0-16A62A865CC2" localFKIndex="3F5F4C46-DEDE-BA7B-A743-18FA6A23CECF" name="acoes_controle_alertas_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:45:39 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<referredTableLongName>alertas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7FF23FFC-2309-E24C-1091-41E6EB10CDB9</referredTableID>
+<keyObject>CAD95371-3BC9-289C-D7B7-1F62EBCA6A53</keyObject>
+<referredKeyID>CAD95371-3BC9-289C-D7B7-1F62EBCA6A53</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

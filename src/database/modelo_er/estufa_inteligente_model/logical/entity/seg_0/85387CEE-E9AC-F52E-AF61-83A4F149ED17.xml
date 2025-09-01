@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85387CEE-E9AC-F52E-AF61-83A4F149ED17" name="tipos sensores">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>7F6E8760-5F4A-245F-7EDA-0C0848079CAC</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="3C5CD399-085E-B251-4A46-C738404302B1">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>2A81C4BE-89B1-EF65-C587-7162A8FA702C</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="C529AC09-8FCC-7304-521F-A78E2489473E">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>42B78354-E086-EA3E-3DA2-6A16BF55C50B</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="4037800F-87DE-4431-01B9-ED707C7E3E78">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>AE6A687D-F6E4-832B-ADE3-5F8BD5CE1281</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unidade medida" id="EA753BC5-44E2-417C-77F1-ACBA9B5A72C7">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>8B4260C4-A2E8-B8FF-8264-3625F9323B32</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor min" id="F9EA258A-EEC9-EA78-C956-B1EB5A5DB03A">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>ED409746-1C0C-73E2-81CC-67980E62C870</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor max" id="1D6D7510-2588-9805-067D-A5667D1AD7B0">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>17CB7F51-37E6-9619-D2A4-0A4830A6CFAB</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precisao" id="B4FBAE78-A99E-21E5-0116-456E2E77CB53">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>94F3FB59-80E0-FD21-CBE5-40246CE227C6</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="C229AD5A-B7BC-0F21-3C6F-D406D0B9CFF3">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>E804B2A1-3059-A7B2-C170-1F605B7D09E6</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D2E8E42B-65CE-376D-FAE0-1360DEFE3095" name="tipos sensores PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>A7C3AE31-8C71-A7FD-C25E-9E17B064D662</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3C5CD399-085E-B251-4A46-C738404302B1</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="DDBE711A-5396-F94D-DED6-B7F98D55313D" name="tipos sensores  UN">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>572622DB-878D-A4E5-6D2E-B56D8110852D</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>C529AC09-8FCC-7304-521F-A78E2489473E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

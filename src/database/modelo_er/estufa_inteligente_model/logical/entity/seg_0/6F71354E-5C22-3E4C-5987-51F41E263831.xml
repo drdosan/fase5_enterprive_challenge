@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6F71354E-5C22-3E4C-5987-51F41E263831" name="leituras">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>E42F450A-B696-C779-6203-71F3893511E5</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2CDA9316-6CC6-07E7-06A5-25B1082CE28D">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>B7CC64E5-A9E6-6E76-4FA2-308167CFF619</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sensor id" id="E686A319-E76D-440D-1ABE-980CBDF72E1B">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>284C83B0-D3E3-688D-2800-6B09A4DE49B5</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<referedAttribute>8CBE1F83-D478-51C8-7EE5-7AA6A686ABA1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="DA3A32A8-3D78-9057-1229-5047700FCDA7">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>5D914988-CB88-C5CE-F9F1-F9F7D50710D1</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,10,4</ownDataTypeParameters>
+</Attribute>
+<Attribute name="timestamp leitura" id="EB483B9A-8840-CA10-8957-4DB69DAFCEC9">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>42E6C183-756B-582E-4083-7A8BD0A8241D</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qualidade sinal" id="35967CD4-C644-787B-D92D-92B650A7336F">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>5A3F4FDD-34C3-6C87-A26C-CEB5C0E773A5</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status leitura" id="15434A23-DE04-820F-40FD-B7EBEE417DCF">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>FC7F8893-DF75-D363-FED7-A7F3EA7088E6</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<defaultValue>normal</defaultValue>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="raw data" id="A5E0A958-0276-33DE-EBF8-D7B72AC0840A">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>1B30ED22-4A46-8A6F-6979-4E5FA22C1EFF</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="created at" id="825432EE-D749-07EF-F5F7-8DC259C30BC0">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>D7D348A0-7B49-CDD4-8EB0-9C8739041EB6</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E292012-E2C0-B0C8-F6CB-5FDBC70D480F" name="leituras PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>D2208520-1B69-7EC1-FAB3-B6F94C7ADD40</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2CDA9316-6CC6-07E7-06A5-25B1082CE28D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

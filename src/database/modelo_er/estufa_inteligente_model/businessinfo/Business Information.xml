@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="41478FD2-CB55-8A3C-3827-C938D261DF13">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 16:34:44 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

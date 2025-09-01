@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="8C30F77F-44E4-38C5-0B2E-AB2BDF1EB6CA" mainViewID="BBAE67BD-BB71-D3E5-9B65-293C1DFAE563">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 16:34:44 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

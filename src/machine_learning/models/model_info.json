@@ -1,0 +1,28 @@
+{
+  "features": [
+    "temperatura_ar",
+    "umidade_ar",
+    "temperatura_solo",
+    "umidade_solo",
+    "luminosidade",
+    "qualidade_ar_ppm"
+  ],
+  "umidade_solo_threshold": 30.0,
+  "best_params": {},
+  "report": "              precision    recall  f1-score   support\n\n           0     0.8571    1.0000    0.9231        18\n           1     0.0000    0.0000    0.0000         3\n\n    accuracy                         0.8571        21\n   macro avg     0.4286    0.5000    0.4615        21\nweighted avg     0.7347    0.8571    0.7912        21\n",
+  "confusion_matrix": [
+    [
+      18,
+      0
+    ],
+    [
+      3,
+      0
+    ]
+  ],
+  "versions": {
+    "sklearn": "1.7.1",
+    "pandas": "2.3.2",
+    "numpy": "2.3.2"
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="estufa_inteligente_model" id="B6235075-EC23-6823-B9EC-50B6D28DB7CC" version="3.5">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 16:34:44 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B6235075-EC23-6823-B9EC-50B6D28DB7CC</designId>
+</OSDM_Design>

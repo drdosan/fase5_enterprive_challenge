@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="parametros_culturas_tipos_sensores_FK" directorySegmentName="seg_0" id="4F6C4951-F872-960E-6529-9A37598F6645">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>0B5EDDC1-4507-CF83-9BE4-14565CA973A9</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<sourcePk>D2E8E42B-65CE-376D-FAE0-1360DEFE3095</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>85387CEE-E9AC-F52E-AF61-83A4F149ED17</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FB834311-7327-4E67-89EC-6EBBDB6048AD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

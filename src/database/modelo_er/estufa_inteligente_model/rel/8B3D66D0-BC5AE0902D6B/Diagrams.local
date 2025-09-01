@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="12DECB3E-E871-97B0-8E53-281F6669DC7C" name="estufa_inteligente" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

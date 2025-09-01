@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="predicoes_ml_estufas_FK" directorySegmentName="seg_0" id="657ECF37-6FC3-3D4F-7D8A-B8C5F832003E">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>55BA1431-4006-02DB-2D39-038920AC02A7</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<sourcePk>8FBA97ED-CA89-9948-4CFD-3997E2172EBA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D74BFDEA-F68E-9E11-7A6A-8EB543A1A310</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5217CF38-DC6E-3740-98D5-222530C05585</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

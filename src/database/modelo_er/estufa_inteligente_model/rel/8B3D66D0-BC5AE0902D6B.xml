@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="estufa_inteligente" id="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" mainViewID="12DECB3E-E871-97B0-8E53-281F6669DC7C">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 16:34:44 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

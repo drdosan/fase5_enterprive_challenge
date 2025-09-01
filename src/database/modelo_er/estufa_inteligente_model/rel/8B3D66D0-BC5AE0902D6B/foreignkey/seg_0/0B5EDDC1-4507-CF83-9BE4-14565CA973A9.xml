@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B5EDDC1-4507-CF83-9BE4-14565CA973A9" containerWithKeyObject="23FE0778-1F69-397C-A3BD-5102AE7CCBC1" localFKIndex="2D2A93FE-151D-4CB9-8304-DAFBBAB69368" name="parametros_culturas_tipos_sensores_FK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:34:12 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<referredTableLongName>tipos_sensores</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F6E8760-5F4A-245F-7EDA-0C0848079CAC</referredTableID>
+<keyObject>A7C3AE31-8C71-A7FD-C25E-9E17B064D662</keyObject>
+<referredKeyID>A7C3AE31-8C71-A7FD-C25E-9E17B064D662</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

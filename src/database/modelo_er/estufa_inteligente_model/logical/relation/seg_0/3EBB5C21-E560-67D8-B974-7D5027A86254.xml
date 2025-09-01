@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sensores_estufas_FK" directorySegmentName="seg_0" id="3EBB5C21-E560-67D8-B974-7D5027A86254">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>9F8DAD94-E20D-BFBF-D091-72C97CBBBE08</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<sourcePk>8FBA97ED-CA89-9948-4CFD-3997E2172EBA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D74BFDEA-F68E-9E11-7A6A-8EB543A1A310</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>98990080-CD2F-C9C7-0903-F57ABB7E98CE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F6E8760-5F4A-245F-7EDA-0C0848079CAC" name="tipos_sensores">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:06:26 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2A81C4BE-89B1-EF65-C587-7162A8FA702C">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:06:57 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="42B78354-E086-EA3E-3DA2-6A16BF55C50B">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:06:57 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="AE6A687D-F6E4-832B-ADE3-5F8BD5CE1281">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:06:57 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidade_medida" id="8B4260C4-A2E8-B8FF-8264-3625F9323B32">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:06:57 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_min" id="ED409746-1C0C-73E2-81CC-67980E62C870">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:06:57 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_max" id="17CB7F51-37E6-9619-D2A4-0A4830A6CFAB">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:06:57 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precisao" id="94F3FB59-80E0-FD21-CBE5-40246CE227C6">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:06:57 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="E804B2A1-3059-A7B2-C170-1F605B7D09E6">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:06:57 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7C3AE31-8C71-A7FD-C25E-9E17B064D662" name="tipos_sensores_PK">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:06:57 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A81C4BE-89B1-EF65-C587-7162A8FA702C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="572622DB-878D-A4E5-6D2E-B56D8110852D" name="tipos_sensores__UN">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 17:10:13 UTC</createdTime>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42B78354-E086-EA3E-3DA2-6A16BF55C50B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

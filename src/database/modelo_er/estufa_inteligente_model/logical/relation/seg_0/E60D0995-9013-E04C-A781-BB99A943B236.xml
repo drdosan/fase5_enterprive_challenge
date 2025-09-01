@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="acoes_controle_alertas_FK" directorySegmentName="seg_0" id="E60D0995-9013-E04C-A781-BB99A943B236">
+<createdBy>Diogo Rebello</createdBy>
+<createdTime>2025-08-31 18:35:04 UTC</createdTime>
+<generatorID>11672E5C-7601-E527-B66D-8ABFA49E4BEF</generatorID>
+<ownerDesignName>estufa_inteligente_model</ownerDesignName>
+<engineerTo>
+<item key="8B3D66D0-D4B2-8FE0-679E-BC5AE0902D6B" value="true"/>
+</engineerTo>
+<sourcePk>4FF39423-657F-C692-AF1F-0B6F173038B5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>814EC497-7441-3B28-9798-0006E4BC8E40</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FAEF359C-DF71-BCC5-8F4F-0079408517F3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
